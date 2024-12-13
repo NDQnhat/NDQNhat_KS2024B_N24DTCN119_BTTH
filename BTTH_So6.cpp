@@ -9,7 +9,7 @@ int main() {
         int i=2;
         while (i<=sqrt(num)) {
             if (num % i==0) {
-                check=1;
+                check++;
                 break;
             } i++;
         } if (check==0) {
